@@ -24,7 +24,7 @@ FCT和Meta faster rcnn都要进行数据划分，而且格式是一样的
 
 
 ft阶段的训练参数：MAX_ITER要一样，如果涉及WARMUP就把WARMIUP_ITERS设计成一样
-![alt text](278bfe2369b133637c3fd5b0252df4cf.png)
+![1739539818893278bfe2369b133637c3fd5b0252df4cf.png](https://fastly.jsdelivr.net/gh/tkzzzzzz6/imagehost@main/blog/1739539818893278bfe2369b133637c3fd5b0252df4cf.png)
 
 ## 其他
 
