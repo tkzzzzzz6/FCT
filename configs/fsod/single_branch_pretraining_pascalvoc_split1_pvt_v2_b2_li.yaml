@@ -16,7 +16,7 @@ MODEL:
   ROI_HEADS:
     NAME: "PVTROIHeads"
 DATASETS:
-  TRAIN: ("disease_trainval_base1")
+  TRAIN: ("disease_trainval_base1",)
   TEST: ("disease_test_all1",)
   TEST_KEEPCLASSES: 'all1'
   TEST_SHOTS: (1,2,3,5,10)
@@ -36,3 +36,4 @@ OUTPUT_DIR: "./output/fsod/single_branch_pretraining_pascalvoc_split1_pvt_v2_b2_
 TEST:
   EVAL_PERIOD: 500
 VERSION: 2
+

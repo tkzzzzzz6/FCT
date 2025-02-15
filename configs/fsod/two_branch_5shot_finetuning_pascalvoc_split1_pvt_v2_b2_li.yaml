@@ -17,8 +17,8 @@ MODEL:
     PRE_NMS_TOPK_TEST: 12000
     POST_NMS_TOPK_TEST: 100
 DATASETS:
-  TRAIN: ("voc_2007_trainval_all1_5shot",)
-  TEST: ("voc_2007_test_all1",)
+  TRAIN: ("disease_trainval_all1_5shot",)
+  TEST: ("disease_test_all1",)
   TEST_KEEPCLASSES: 'all1'
 SOLVER:
   IMS_PER_BATCH: 8
